@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.164.0",
+    "langchain-groq>=1.2.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 news-agent = "news_agent:main"
